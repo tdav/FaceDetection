@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="Asbt.FaceDetection/Asbt.FaceDetection.csproj" Id="02f67b08-9c45-4ccf-9fa2-72f06d691a0d" />
+  <Project Path="FaceDetection/FaceDetection.csproj" Id="9dcec43b-4e1d-473b-9b7a-7e80ab62ef86">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+</Solution>
