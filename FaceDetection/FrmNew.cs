@@ -1,8 +1,5 @@
 ﻿using Asbt.FaceDetection;
-using OpenCvSharp;
-using OpenCvSharp.Extensions;
 using System;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace FaceDetection
@@ -34,7 +31,8 @@ namespace FaceDetection
 
         private void button2_Click(object sender, EventArgs e)
         {
-            faceDetection.Save(Application.StartupPath+"\\fc1.png");            
+            faceDetection.Save(Application.StartupPath+"\\fc1.png");
+            MessageBox.Show("Ok");
         }
     }
 }
